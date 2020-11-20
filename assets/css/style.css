@@ -1,0 +1,82 @@
+body{
+	margin: 0;
+}
+section.banner_sectionn {
+    background-color: yellow;
+    background-image: url(../images/tree.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div{}
+.container{width: 1300px;
+			margin:0;
+			text-align:center;
+			padding-top:80px;
+			padding-bottom:180px;}
+
+h2{ font-size: 40px;
+	color:blue;
+	margin:0; }
+p{ font-size: 25px; }
+i{}
+b{}
+strong{color:blue;}
+span{ color: green; }
+header{  }
+
+ul{     color: white;
+		margin: 0;
+		padding-bottom: 0;
+		text-align: center; }
+ul li{ /*background-color: ;*/
+		display:inline-block;
+		list-style-type: none;
+
+		}
+ul li a{ color: green;
+    font-size: 20px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 15px;
+    display: block;
+ }
+
+.view-more {
+    color: white;
+    size: 20px;
+    text-transform: uppercase;
+    font-weight: 800;
+    background-color: green;
+    padding: 15px;
+    display: inline-block;
+    transition-duration: 1s;
+    text-decoration: none;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.view-more:hover{ background-color: blue;
+color: #ebff47; }
+
+.container{  }
+.box {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.box h3
+		 { font-size: 50px;
+		color:green;}
+h4
+		{font-size: 50px;
+		color:green;}
+img {
+    width: 100%;
+    height: 100%;
+}
